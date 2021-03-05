@@ -1,0 +1,45 @@
+.main{
+    display:flex;
+}
+.mainNav > div{
+    width:300px;
+    height:89vh;
+    background:#fffdfd;
+}
+.mainBlock{
+    height:89vh;
+    overflow:auto;
+}
+.mainBreadcrumbs{
+    margin:25px;
+}
+.mainProduct{
+    display:flex;
+    flex-wrap:wrap;
+    margin: 0 auto;
+    justify-content:center;
+}
+
+
+.mainBreadcrumbs > div{
+    font-size:20px;
+}
+
+
+
+@media screen and (max-width:600px){
+    .mainNav > div{
+        width:150px;
+    }
+
+    .mainBreadcrumbs > div{
+        font-size:16px;
+    }
+
+}
+@media screen and (max-width:400px){
+    .mainNav > div{
+        width:120px;
+        font-size:12px;
+    }
+}

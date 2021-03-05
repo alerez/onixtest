@@ -1,0 +1,334 @@
+{
+  "footwear": [
+        {
+          "image": {
+            "img": "dino.jpg"
+          },
+          "titleName": "Кроссовки",
+          "price": 1,
+          "description": "Описание для отличных кроссовок",
+          "category": "sneakers",
+          "productCode": 10000,
+          "quantity": 1
+        },
+        {
+          "image": {
+            "img": "dino.jpg"
+          },
+          "titleName": "Кроссовки",
+          "price": 1,
+          "description": "Описание для отличных кроссовок",
+          "category": "sneakers",
+          "productCode": 10001,
+          "quantity": 1
+        },
+        {
+          "image": {
+            "img": "dino.jpg"
+          },
+          "titleName": "Кроссовки",
+          "price": 1,
+          "description": "Описание для отличных кроссовок",
+          "category": "sneakers",
+          "productCode": 10002,
+          "quantity": 1
+        },
+        {
+          "image": {
+            "img": "dino.jpg"
+          },
+          "titleName": "Кроссовки",
+          "price": 1,
+          "description": "Описание для отличных кроссовок",
+          "category": "shoes",
+          "productCode": 10003,
+          "quantity": 1
+        },
+        {
+          "image": {
+            "img": "dino.jpg"
+          },
+          "titleName": "Кроссовки",
+          "price": 1,
+          "description": "Описание для отличных кроссовок",
+          "category": "shoes",
+          "productCode": 10004,
+          "quantity": 1
+        },
+        {
+          "image": {
+            "img": "dino.jpg"
+          },
+          "titleName": "Кроссовки",
+          "price": 1,
+          "description": "Описание для отличных кроссовок",
+          "category": "shoes",
+          "productCode": 10005,
+          "quantity": 1
+        },
+        {
+          "image": {
+            "img": "dino.jpg"
+          },
+          "titleName": "Кроссовки",
+          "price": 1,
+          "description": "Описание для отличных кроссовок",
+          "category": "slippers",
+          "productCode": 10006,
+          "quantity": 1
+        },
+        {
+          "image": {
+            "img": "dino.jpg"
+          },
+          "titleName": "Кроссовки",
+          "price": 1,
+          "description": "Описание для отличных кроссовок",
+          "category": "slippers",
+          "productCode": 10007,
+          "quantity": 1
+        },
+        {
+          "image": {
+            "img": "dino.jpg"
+          },
+          "titleName": "Кроссовки",
+          "price": 1,
+          "description": "Описание для отличных кроссовок",
+          "category": "slippers",
+          "productCode": 10008,
+          "quantity": 1
+        }
+  ],
+  "outerwear": [
+        {
+          "image": {
+            "img": "dino.jpg"
+          },
+          "titleName": "Кроссовки",
+          "price": 1,
+          "description": "Описание для отличных кроссовок",
+          "category": "sweaters",
+          "productCode": 10009,
+          "quantity": 1
+        },
+        {
+          "image": {
+            "img": "dino.jpg"
+          },
+          "titleName": "Кроссовки",
+          "price": 1,
+          "description": "Описание для отличных кроссовок",
+          "category": "sweaters",
+          "productCode": 10010,
+          "quantity": 1
+        },
+        {
+          "image": {
+            "img": "dino.jpg"
+          },
+          "titleName": "Кроссовки",
+          "price": 1,
+          "description": "Описание для отличных кроссовок",
+          "category": "sweaters",
+          "productCode": 10011,
+          "quantity": 1
+        },
+        {
+          "image": {
+            "img": "dino.jpg"
+          },
+          "titleName": "Кроссовки",
+          "price": 1,
+          "description": "Описание для отличных кроссовок",
+          "category": "shirts",
+          "productCode": 10012,
+          "quantity": 1
+        },
+        {
+          "image": {
+            "img": "dino.jpg"
+          },
+          "titleName": "Кроссовки",
+          "price": 1,
+          "description": "Описание для отличных кроссовок",
+          "category": "shirts",
+          "productCode": 10013,
+          "quantity": 1
+        },
+        {
+          "image": {
+            "img": "dino.jpg"
+          },
+          "titleName": "Кроссовки",
+          "price": 1,
+          "description": "Описание для отличных кроссовок",
+          "category": "shirts",
+          "productCode": 10014,
+          "quantity": 1
+        }
+  ],
+  "underwear": [
+        {
+          "image": {
+            "img": "dino.jpg"
+          },
+          "titleName": "Кроссовки",
+          "price": 1,
+          "description": "Описание для отличных кроссовок",
+          "category": "Underpants",
+          "productCode": 10015,
+          "quantity": 1
+        },
+        {
+          "image": {
+            "img": "dino.jpg"
+          },
+          "titleName": "Кроссовки",
+          "price": 1,
+          "description": "Описание для отличных кроссовок",
+          "category": "Underpants",
+          "productCode": 10016,
+          "quantity": 1
+        },
+        {
+          "image": {
+            "img": "dino.jpg"
+          },
+          "titleName": "Кроссовки",
+          "price": 1,
+          "description": "Описание для отличных кроссовок",
+          "category": "Underpants",
+          "productCode": 10017,
+          "quantity": 1
+        },
+        {
+          "image": {
+            "img": "dino.jpg"
+          },
+          "titleName": "Кроссовки",
+          "price": 1,
+          "description": "Описание для отличных кроссовок",
+          "category": "socks",
+          "productCode": 10018,
+          "quantity": 1
+        },
+        {
+          "image": {
+            "img": "dino.jpg"
+          },
+          "titleName": "Кроссовки",
+          "price": 1,
+          "description": "Описание для отличных кроссовок",
+          "category": "socks",
+          "productCode": 10019,
+          "quantity": 1
+        },
+        {
+          "image": {
+            "img": "dino.jpg"
+          },
+          "titleName": "Кроссовки",
+          "price": 1,
+          "description": "Описание для отличных кроссовок",
+          "category": "socks",
+          "productCode": 10020,
+          "quantity": 1
+        }
+  ],
+  "accessories": [
+        {
+          "image": {
+            "img": "dino.jpg"
+          },
+          "titleName": "Кроссовки",
+          "price": 10,
+          "description": "Описание для отличных кроссовок",
+          "category": "glasses",
+          "productCode": 10021,
+          "quantity": 1
+        },
+        {
+          "image": {
+            "img": "dino.jpg"
+          },
+          "titleName": "Кроссовки",
+          "price": 132,
+          "description": "Описание для отличных кроссовок",
+          "category": "glasses",
+          "productCode": 10022,
+          "quantity": 1
+        },
+        {
+          "image": {
+            "img": "dino.jpg"
+          },
+          "titleName": "Кроссовки",
+          "price": 435,
+          "description": "Описание для отличных кроссовок",
+          "category": "glasses",
+          "productCode": 10023,
+          "quantity": 1
+        },
+        {
+          "image": {
+            "img": "dino.jpg"
+          },
+          "titleName": "Кроссовки",
+          "price": 435,
+          "description": "Описание для отличных кроссовок",
+          "category": "clock",
+          "productCode": 10024,
+          "quantity": 1
+        },
+        {
+          "image": {
+            "img": "dino.jpg"
+          },
+          "titleName": "Кроссовки",
+          "price": 765,
+          "description": "Описание для отличных кроссовок",
+          "category": "clock",
+          "productCode": 10025,
+          "quantity": 1
+        },
+        {
+          "image": {
+            "img": "dino.jpg"
+          },
+          "titleName": "Кроссовки",
+          "price": 545,
+          "description": "Описание для отличных кроссовок",
+          "category": "clock",
+          "productCode": 10026,
+          "quantity": 1
+        }
+  ],
+  "nav":{
+    "name": {
+      "footwear": "Обувь",
+      "outerwear": "Верхняя Одежда",
+      "underwear": "Нижнее Белье",
+      "accessories": "Аксесуары"
+    },
+    "catalog":{
+      "footwear": {
+        "sneakers": "Кроссовки",
+        "shoes": "Туфли",
+        "slippers": "Тапочки"
+      },
+      "outerwear": {
+        "sweaters": "Свитера",
+        "shirts": "Рубашки"
+      },
+      "underwear": {
+        "Underpants": "Трусы",
+        "socks": "Носки"
+      },
+      "accessories": {
+        "clock": "Часы",
+        "glasses": "Очки"
+      }
+    }
+  }
+}
