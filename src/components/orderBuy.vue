@@ -1,9 +1,11 @@
 <template>
-  <div>
+  <div class="orderBuy">
     <div>
       <label>
+        Card Number
         <input type="text">
       </label>
+      DATE
       <select>
         <option>01</option>
         <option>02</option>
@@ -33,13 +35,15 @@
       </select>
     </div>
     <label>
+      CVV
       <input type="number">
     </label>
+    <button @click="sumbit()" type="submit">Оплатить</button>
   </div>
 </template>
 
 <script>
-import {mapGetters} from "vuex";
+import {mapGetters, mapActions} from "vuex";
 
 export default {
 name: "orderBuy",
@@ -71,10 +75,39 @@ name: "orderBuy",
     if(!this.cartTotal){
       this.$router.push({ name: "Home"})
     }
+  },
+  methods: {
+  ...mapActions(['del_buy']),
+    sumbit: function sumbit(){
+      this.del_buy()
+      this.$router.push({ name: "complete"})
+    }
   }
 }
 </script>
 
 <style scoped lang="scss">
-
+a{
+  padding:5px;
+  margin:4px;
+  background-color:#053354;
+  font-size:16px;
+  color:white;
+  border:none;
+  cursor:pointer;
+}
+.orderBuy{
+  display:flex;
+  flex-direction:column;
+  align-self:center;
+  align-content:center;
+  align-items:center;
+  justify-self:center;
+  justify-content:center;
+  justify-items:center;
+  height:80vh;
+}
+.orderBuy > div{
+  margin:5px;
+}
 </style>

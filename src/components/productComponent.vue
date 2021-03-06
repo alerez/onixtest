@@ -22,15 +22,15 @@
           <div v-if="!this.buyProduct.find(el => el['productCode'] === this.productCart['productCode'])">
             <button v-on:click="emitProduct_buy">Купить</button>
           </div>
-          <div v-if="!this.buyProduct.find(el => el['productCode'] === this.productCart['productCode'])" class="selectProduct">
-            <div>
+          <div style="margin-left:4px" v-if="!this.buyProduct.find(el => el['productCode'] === this.productCart['productCode'])" class="selectProduct">
+            <div class="background-color">
               <button v-if="quantity > 1" @click="emit_plus(false)">-</button>
               <button v-if="quantity === 1" disabled @click="emit_plus(false)">-</button>
             </div>
-            <div>
-              <p>{{this.quantity}}</p>
+            <div class="background-color">
+              <span>{{this.quantity}}</span>
             </div>
-            <div>
+            <div class="background-color">
               <button @click="emit_plus(true)">+</button>
             </div>
           </div>

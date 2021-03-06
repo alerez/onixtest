@@ -10,6 +10,7 @@ import underwear from "@/components/main/catalogProduct/underwear.vue";
 import productComponent from "@/components/productComponent.vue";
 import order from "@/components/order.vue";
 import orderBuy from "@/components/orderBuy.vue";
+import computed from "@/components/computed.vue";
 
 Vue.use(VueRouter)
 
@@ -73,6 +74,11 @@ const routes = [
     path: '/orderbuy',
     name: 'orderbuy',
     component: orderBuy
+  },
+  {
+    path: '/complete',
+    name: 'complete',
+    component: computed
   }
 ]
 

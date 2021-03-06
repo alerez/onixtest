@@ -1,11 +1,11 @@
 <template>
   <div class="order">
-    <div class="orderBlock">
+    <form class="orderBlock">
       <div class="name">
         <div>
           <p>Имя</p>
         </div>
-        <input type="text">
+        <input type="text" required>
       </div>
       <div class="lastName">
         <div>
@@ -17,25 +17,25 @@
         <div>
           <p>Почта</p>
         </div>
-        <input type="email">
+        <input type="email" required>
       </div>
       <div>
         <div>
           <p>Телефон</p>
         </div>
-        <input type="tel">
+        <input type="tel" required>
       </div>
       <div>
         <div>
           <p>Город</p>
         </div>
-        <input type="text">
+        <input type="text" required>
       </div>
       <div>
         <div>
           <p>Отделение Новой Почты</p>
         </div>
-        <input type="text">
+        <input type="text" required>
       </div>
       <div>
         <div>
@@ -44,10 +44,10 @@
       </div>
       <div>
         <div>
-          <router-link to="/orderBuy">Оплатить</router-link>
+          <button @click="sumbit()" type="submit">Перейти к оплате</button>
         </div>
       </div>
-    </div>
+    </form>
   </div>
 </template>
 
@@ -84,6 +84,11 @@ name: "order",
     if(!this.cartTotal){
       this.$router.push({ name: "Home"})
     }
+  },
+  methods: {
+    sumbit: function sumbit(){
+      this.$router.push({ name: "orderbuy"})
+    }
   }
 }
 </script>
@@ -107,5 +112,14 @@ name: "order",
 }
 .orderBlock > input{
   display:block;
+}
+a{
+  padding:5px;
+  margin:4px;
+  background-color:#053354;
+  font-size:16px;
+  color:white;
+  border:none;
+  cursor:pointer;
 }
 </style>

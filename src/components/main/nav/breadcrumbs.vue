@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div style="display:flex">
+    <div style="display:flex; width: 250px;">
       <router-link to="/" class="breadcrumbs">Главная</router-link>
       <span style="margin-left:5px; margin-right:5px"> / </span>
       <router-link v-if="$attrs.product" :to="'/' + $route.name" class="breadcrumbs"> {{ $attrs.product }} </router-link>

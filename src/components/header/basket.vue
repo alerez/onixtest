@@ -121,6 +121,8 @@ export default {
   justify-content:center;
   justify-self:center;
   justify-items:center;
+  border:2px solid #1a1a1a;
+  background-color:white;
 }
 .basketProduct > div > img{
   width:80px;
@@ -140,5 +142,14 @@ export default {
 }
 .basketButton > div{
   margin:20px;
+}
+a{
+  padding:5px;
+  margin:4px;
+  background-color:#053354;
+  font-size:16px;
+  color:white;
+  border:none;
+  cursor:pointer;
 }
 </style>
